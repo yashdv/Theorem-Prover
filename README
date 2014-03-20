@@ -1,0 +1,19 @@
+THEOREM PROVER
+-----------------------------
+
+A simple code in python that proves/disproves theorems in proposition logic.
+
+If the theorem is correct (holds), it outputs a '1' else a '0'.
+
+Sample Input:
+4
+p, p->q => q
+p, q => r
+p->q, ~q => ~p
+p->q, q->r => p->r
+
+Sample Output:
+1
+0
+1
+1
